@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>notes.html</title>
+<meta http-equiv="Content-Type" content="application/xhtml+xml;charset=utf-8"/>
+<link rel="stylesheet" type="text/css" media="all" href="/home/user/.config/emacs/.local/straight/build-29.4/markdown-xwidget/resources/github_css/light.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="/home/user/.config/emacs/.local/straight/build-29.4/markdown-xwidget/resources/highlight_css/default.css"  /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+  body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 45px;
+  }
+</style>
+
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  src="/home/user/.config/emacs/.local/straight/build-29.4/markdown-xwidget/resources/tex-mml-chtml.js"
+></script>
+
+<script type="text/javascript" src="/home/user/.config/emacs/.local/straight/build-29.4/markdown-xwidget/resources/highlight.min.js"></script>
+
+<script type="text/javascript" src="/home/user/.config/emacs/.local/straight/build-29.4/markdown-xwidget/resources/mermaid.min.js"></script>
+
+<script type="text/javascript">
+  // Use highlight.js for syntax highlighting on non-mermaid code blocks.
+  hljs.configure({ noHighlightRe: /^mermaid$/i });
+  hljs.highlightAll();
+</script>
+
+<script type="text/javascript">
+  mermaid.initialize({
+    theme: "default",
+    startOnLoad: true,
+  });
+</script>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", () => {
+    // Add a "markdown-body" class attribute to the body. We must do this because
+    // the GitHub CSS only applies to a div with the "markdown-body" class.
+    document.body.classList.add("markdown-body");
+
+    // If there's a stored scroll location, scroll to that location. Otherwise,
+    // the document resets to the top of the page every time it is refreshed.
+    let prevScroll = sessionStorage.getItem("scrollY");
+    if (prevScroll) window.scroll(0, prevScroll);
+  });
+
+  // Save new scroll locations on scroll.
+  // See: https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event
+  let ticking = false;
+  document.addEventListener("scroll", (event) => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        sessionStorage.setItem("scrollY", window.scrollY);
+        ticking = false;
+      });
+      ticking = true;
+    }
+  });
+</script>
+
+</head>
+
+<body>
+
+
+
+</body>
+</html>
