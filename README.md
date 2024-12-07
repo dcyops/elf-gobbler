@@ -1,4 +1,4 @@
-# Elf-Gobbler
+# Elf-Gobbler (non-functional)
 
 ## Overview
 **Elf-Gobbler** is a proof of concept (POC) for a file infector. This project demonstrates how a file infector can operate by modifying executable files in the ELF (Executable and Linkable Format) commonly used in Unix-like operating systems.
